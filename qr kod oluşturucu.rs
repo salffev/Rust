@@ -1,6 +1,6 @@
 use qrcode::{QrCode, Version, EcLevel};
 use std::io;
-
+//-------------------------------------------------------------------------------------------
 fn get_input() -> String {
     let mut input = String::new();
     io::stdin().read_line(&mut input).unwrap();
@@ -28,3 +28,4 @@ fn main() {
         Err(error) => println!("Hata: {}", error),
     }
 }
+//-------------------------------------------------------------------------------------------
